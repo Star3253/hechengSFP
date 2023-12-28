@@ -6,7 +6,7 @@
 if (selectModal) {
   let extraScoreStr = '';
   while (isNaN(parseInt(extraScoreStr))) {
-    extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+    extraScoreStr = prompt('成功原本非直线，登峰之路总螺旋（走捷径加分时间：）', '1').trim();
   }
   extraScore = parseInt(extraScoreStr)
 }
